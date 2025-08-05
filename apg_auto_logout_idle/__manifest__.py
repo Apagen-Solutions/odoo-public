@@ -14,6 +14,9 @@
     'data': [
         'views/res_users_views.xml'
     ],
+    'images': [
+        'static/description/banner.jpg',
+    ],
     'assets': {
         'web.assets_backend': [
             '/apg_auto_logout_idle/static/src/xml/systray.xml',
@@ -26,4 +29,3 @@
     'auto_install': False,
     'application': False,
 }
-
