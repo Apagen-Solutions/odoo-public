@@ -1,0 +1,21 @@
+<odoo>
+    <record id="view_account_payment_form_custom" model="ir.ui.view">
+        <field name="name">account.payment.form.inherit</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="account.view_account_payment_form"/>
+        <field name="arch" type="xml">
+
+            <!-- ✅ Manual Exchange Checkbox -->
+            <xpath expr="//field[@name='date']" position="after">
+                <field name="is_exchange" readonly="state != 'draft'"/>
+                <field name="rate" invisible="is_exchange == False" readonly="state != 'draft'"/>
+            </xpath>
+
+            <!-- ✅ Manual Exchange Rate Field -->
+            <!-- <xpath expr="//field[@name='amount']" position="after">
+                <field name="rate" invisible="is_exchange == False"/>
+            </xpath> -->
+
+        </field>
+    </record>
+</odoo>
