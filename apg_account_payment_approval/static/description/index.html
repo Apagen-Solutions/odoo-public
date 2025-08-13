@@ -1,0 +1,162 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Account Payment Approval</h2>
+        <h3 class="oe_slogan">Control and Authorize Payments with Approval Workflow</h3>
+        <p class="oe_mt32">
+            This module introduces a <strong>payment approval process</strong> in Odoo's Accounting app.
+            It ensures that payments exceeding a specified threshold go through an approval workflow,
+            adding a layer of control and preventing unauthorized transactions.
+        </p>
+    </div>
+
+    <div class="oe_row oe_spaced">
+        <h4>Key Features:</h4>
+        <ul>
+            <li><strong>Enable Payment Approval:</strong> Activate the option from <em><strong>Accounting > Configuration > Settings</strong></em>.</li>
+            <li><strong>Approver Setup:</strong> Select the user responsible for approving payments.</li>
+            <li><strong>Minimum Approval Amount:</strong> Define the threshold amount to trigger the approval process.</li>
+            <li><strong>Approval Currency:</strong> Set a currency to standardize approval amount calculation.</li>
+            <li><strong>Approval Workflow:</strong> Approver can either approve or reject the payment request.</li>
+            <li><strong>Status Filters:</strong> Easily filter payments by <em>Waiting for Approval</em>, <em>Approved</em>, or <em>Rejected</em>.</li>
+        </ul>
+    </div>
+
+    <div class="mb-4 bg-white"
+         style="border: 1px solid #EBEEF2; border-radius: 6px; box-shadow: 0px 8px 20px -4px rgba(0, 0, 0, 0.10);">
+        <div>
+            <ul class="nav nav-tabs justify-content-center bg-white py-2"
+                id="myTab" role="tablist"
+                style="border-radius: 6px 6px 0 0;">
+                <li class="nav-item">
+                    <a aria-controls="overview"
+                       aria-bs-selected="true"
+                       class="nav-link active" data-bs-toggle="tab"
+                       href="#overview" id="overview-tab" role="tab"
+                       style="color:#121212; font-weight:500; font-size:16px">
+                        Screenshots</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content p-md-5 p-2 py-3" id="myTabContent">
+            <div aria-labelledby="overview-tab"
+                 class="tab-pane fade show active" id="overview"
+                 role="tabpanel">
+
+                <div class="position-relative mb-4"
+                     style="border-radius:10px; background-color:#f4f4f4">
+                    <div class="p-md-5 p-3 position-relative">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1 style="font-weight:700; font-size: 32px; text-transform:capitalize;">
+                                    Enable Payment Approval
+                                </h1>
+                                <p style="font-size:16px; line-height:150%; text-align:center; color:var(--text-color-light)">
+                                    Go to <em><strong>Accounting > Configuration > Settings</strong></em> and enable the
+                                    <strong>Payment Approval</strong> option.
+                                </p>
+                                <div class="d-inline-block p-3 shadow-sm"
+                                     style="background-color:#fff; border-radius:10px">
+                                    <img alt="Enable Payment Approval" class="img-fluid"
+                                         loading="lazy"
+                                         src="s1.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="position-relative mb-4"
+                     style="border-radius:10px; background-color:#f4f4f4">
+                    <div class="p-md-5 p-3 position-relative">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1 style="font-weight:700; font-size: 32px; text-transform:capitalize;">
+                                    Configure Approver, Amount, and Currency
+                                </h1>
+                                <p style="font-size:16px; line-height:150%; text-align:center; color:var(--text-color-light)">
+                                    After enabling Payment Approval, set the <strong>Approver</strong>,
+                                    <strong>Minimum Approval Amount</strong>, and <strong>Approval Currency</strong>.
+                                </p>
+                                <div class="d-inline-block p-3 shadow-sm"
+                                     style="background-color:#fff; border-radius:10px">
+                                    <img alt="Payment Approval Configuration" class="img-fluid"
+                                         loading="lazy"
+                                         src="s1.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="position-relative mb-4"
+                     style="border-radius:10px; background-color:#f4f4f4">
+                    <div class="p-md-5 p-3 position-relative">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1 style="font-weight:700; font-size: 32px; text-transform:capitalize;">
+                                    Approval Workflow in Payments
+                                </h1>
+                                <p style="font-size:16px; line-height:150%; text-align:center; color:var(--text-color-light)">
+                                    Payments exceeding the threshold amount will be sent for approval.
+                                    The approver can approve or reject the request.
+                                </p>
+                                <div class="d-inline-block p-3 shadow-sm"
+                                     style="background-color:#fff; border-radius:10px">
+                                    <img alt="Payment Approval Workflow" class="img-fluid"
+                                         loading="lazy"
+                                         src="s2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="position-relative mb-4"
+                     style="border-radius:10px; background-color:#f4f4f4">
+                    <div class="p-md-5 p-3 position-relative">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h1 style="font-weight:700; font-size: 32px; text-transform:capitalize;">
+                                    Filter Payments by Status
+                                </h1>
+                                <p style="font-size:16px; line-height:150%; text-align:center; color:var(--text-color-light)">
+                                    Easily filter payment records by <em>Waiting for Approval</em>,
+                                    <em>Approved</em>, or <em>Rejected</em>.
+                                </p>
+                                <div class="d-inline-block p-3 shadow-sm"
+                                     style="background-color:#fff; border-radius:10px">
+                                    <img alt="Payment Status Filters" class="img-fluid"
+                                         loading="lazy"
+                                         src="s3.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="oe_row oe_spaced">
+        <h4>Usage:</h4>
+        <p>
+            After installing the module, enable <strong>Payment Approval</strong> from settings,
+            configure the approver, amount, and currency, and manage payment approvals directly in the
+            <em><strong>Accounting > Vendors > Payments</strong></em> menu.
+        </p>
+    </div>
+
+    <div class="oe_row oe_spaced">
+        <h4>Technical Details:</h4>
+        <ul>
+            <li>Compatible with Odoo 18</li>
+            <li>Fully integrated with Odoo Accounting</li>
+        </ul>
+    </div>
+
+    <div class="oe_row oe_spaced">
+        <h4>Author:</h4>
+        <p>Apagen Solutions</p>
+    </div>
+</section>
